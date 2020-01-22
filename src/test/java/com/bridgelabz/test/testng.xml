@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/slot1/Documents/PrajktaRaut/Project/OTPHandlerDemo">
+        <classes>
+            <class name="com.bridgelabz.test.OtpHandlerTest">
+                <methods>
+                    <parameter name="browserName" value="chrome"></parameter>
+                    <include name="handleOTP"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

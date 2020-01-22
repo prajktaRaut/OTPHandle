@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="/home/slot1/Documents/PrajktaRaut/Project/OTPHandlerDemo(failed)">
+    <classes>
+      <class name="com.bridgelabz.test.OtpHandlerTest">
+        <parameter name="browserName" value="chrome"/>
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="handleOTP"/>
+        </methods>
+      </class> <!-- com.bridgelabz.test.OtpHandlerTest -->
+    </classes>
+  </test> <!-- /home/slot1/Documents/PrajktaRaut/Project/OTPHandlerDemo(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
